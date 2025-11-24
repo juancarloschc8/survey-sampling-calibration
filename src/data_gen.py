@@ -49,7 +49,7 @@ def generate_population(n=100000, seed=42):
     
     return df
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     print("Generando población sintética...")
     pop = generate_population()
     pop.to_csv('data/population_census.csv', index=False)

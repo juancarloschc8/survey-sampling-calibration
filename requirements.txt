@@ -1,8 +1,6 @@
 numpy
 pandas
-geopandas
-shapely
+samplics
 scipy
-folium
 matplotlib
-mapclassify
+seaborn

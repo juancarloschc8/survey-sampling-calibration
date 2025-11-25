@@ -35,8 +35,8 @@ We utilized a **Two-Stage Cluster Sampling** design:
 Initial weights ($w_i$) were calculated based on selection probabilities. However, due to differential non-response, the raw sample was unrepresentative.
 
 We used *Raking (Iterative Proportional Fitting)* to adjust weights so that:
-$$\sum w_i^{cal} \cdot I(x \in AgeGroup) = N_{AgeGroup}$$
-$$\sum w_i^{cal} \cdot I(x \in Gender) = N_{Gender}$$
+- $$\sum w_i^{cal} \cdot I(x \in AgeGroup) = N_{AgeGroup}$$
+- $$\sum w_i^{cal} \cdot I(x \in Gender) = N_{Gender}$$
 
 This ensures the sample structure perfectly mirrors the known population demographics.
 
